@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.left {
+    /* height: 60%; */
+    width: 70%;
+    /* background-color: yellowgreen; */
+    padding: 10px 50px;
+    display: flex;
+    /* align-items: center; */
+
+    gap: 3vw;
+    box-shadow: 0 0 10px black;
+}
+
+.barcode {
+    /* height: 200px; */
+    height: 300px;
+    width: 10%;
+    background-color: violet;
+    overflow: hidden;
+    background-image: url(/Barcode\ SVG\ Files\ _\ Plain\ Barcode\ Cut\ Files\ _\ Barcode\ Vector\ Files\ _\ Plain\ Barcode\ Vector\ _\ Barcode\ Clip\ Art\ _\ CnC\ Files.jpeg);
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: darken;
+    /* rotate: 90deg; */
+}
+
+
+
+.txt {
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 2% 0;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img {
+    height: 70px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.mid {
+    text-align: center;
+    line-height: 2vw;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2E3C9B;
+    margin-top: 1vw;
+}
+
+.line {
+    height: 1px;
+    width: 300px;
+    background-color: #2A3389;
+
+
+}
+span{
+    opacity: .9;
+}
+.p {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 15px 10px;
+    padding-right: 45px;
+}
+
+.right {
+
+    height: 62%;
+    width: 25%;
+    background-color: #2A3389;
+    box-shadow: 0 0 10px black;
+    padding: 1% 0;
+    color: white;
+}
+
+.right-img {
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: darken;
+}
+
+.date {
+    /* background-color: yellowgreen; */
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0 45px;
+    margin-top: 1vw;
+}
+
+.list {
+    text-align: left;
+    gap: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2vw;
+}
+
+.right-top {
+    padding: 10px 45px;
+}
+
+.right-top span {
+    margin-left: 15%;
+}
+
+.a {
+    text-align: left;
+}
